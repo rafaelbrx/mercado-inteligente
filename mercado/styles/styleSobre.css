@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+#tittle{
+    color: rgb(132, 14, 201);
+    font-family: poppinsbold;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;    
+    text-align: center;
+}
+
+span{
+    line-height: 20px;
+    font-family: poppinslight;
+    color: white;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+a{
+    color: white;
+    transition: 0.3s all;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s all;
+}
+
+#retbutton{
+    text-align: center;
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    width: 15%;
+    border-radius: 15px;
+}
+
+#retbutton:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}

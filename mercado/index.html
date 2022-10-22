@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 max-scale=1.0">
+    <link href="./styles/styleInicio.css" rel="stylesheet">
+    <link href="./styles/fonts.css" rel="stylesheet">
+    <link href="./styles/media.css" rel="stylesheet">
+    <link rel="icon" href="./components/images/imgcart.png">
+    <title>Super Mercado Inteligente</title>
+</head>
+<body>
+    <header>
+        <div id="tittle">
+            <h1>Mercado</h1>
+            <h1>Inteligente</h1>
+        </div>
+
+        <ul>
+            <a href="./index.html"><li>Início</li></a>
+            <a href="./sobre.html"><li>Sobre</li></a>
+            <a href="./login.html" id="inscreva-se-btn"><li>Já tem uma conta?</li></a>
+        </ul>
+    </header>
+
+    <main>
+       <aside>
+        <h2><span>Crie uma conta</span></h2>
+        <h2>e facilite seu mercado</h2>
+        <form action="cadastro.php" method="POST">
+        <input type="text" placeholder="Usuário" name="usuario"> 
+        <input type="email" placeholder="E-mail" name="email">
+        <input type="password" placeholder="Senha" name="senha">
+        <button>Cadastrar</button>
+        </form>
+       </aside>
+
+       <article>
+          <img src="./components/images/cart.png" alt="purple-car">
+       </article>
+    </main>
+</body>
+</html>

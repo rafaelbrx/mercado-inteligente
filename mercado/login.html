@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./styles/styleLog.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="icon" href="./components/images/imgcart.png">
+</head>
+<body>
+    
+    <div class="container">
+    <div class="forms">
+    <div class="form login">
+        <span class="title">Login</span>
+        <form action="Cookies_autenth.php" method="POST">
+            <div class="input-field">
+            <input type="email" placeholder="Digite seu email" required name="email" id="email">
+            <i class="uil uil-envelope icon"></i>
+        </div>
+
+        <div class="input-field">
+            <input type="password" class="password" placeholder="Digite sua senha" required name="senha" id="senha">
+            <i class="uil uil-lock icon"></i>
+            <i class="uil uil-eye-slash showHidePw"></i>
+         </div>
+
+        <div class="checkbox-text">
+        <div class="checkbox-content">
+            <input type="checkbox" id="logCheck">
+            <label for="logCheck" class="text">Lembrar me</label>
+        </div>
+                        
+        <a href="#" class="text">Esqueceu a senha?</a>
+        </div>
+
+        <div class="input-field button">
+            <input type="submit" value="Login">
+        </div>
+    </form>
+
+        <div class="login-signup">
+            <span class="text">Não é um membro?
+                <a href="./index.html" class="text signup-link">Inscreva-se agora</a>
+            </span>
+        </div>
+        </div>
+<script src="scriptLogin.js"></script>
+</body>
+</html>

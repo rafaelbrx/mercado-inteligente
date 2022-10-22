@@ -1,0 +1,85 @@
+:root {
+	--primary: rgb(132, 14, 201);
+	--light: #EEE;
+	--dark: rgb(34, 34, 34);
+	--danger: #db100d;
+	--shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	--primary-glow: 0px 0px 4px rgba(132, 14, 201, 0.75);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: poppinsmedium;
+}
+
+a{
+    color: var(--primary);
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 8px;
+	font-family: poppinsbold;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s all;
+}
+
+input:not([type="radio"]){
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: initial;
+}
+
+body {
+	background: linear-gradient(to right, rgb(34,34,34), rgb(34,34,34));
+	color: var(--dark);
+}
+
+.table-bg{
+	background-color: rgba(132, 14, 201, 0.5);
+	text-align: center;
+	border-radius: 15px 15px 0 0;
+}
+
+section {
+	margin-top: 32px;
+	margin-bottom: 32px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+h1 {
+	color: var(--primary);
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 8px;
+	font-family: poppinsbold;
+}
+
+h2 {
+	color: var(--primary);
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 8px;
+	font-family: poppinsbold;
+}
+
+h3 {
+	color: var(--primary);
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 8px;
+	font-family: poppinsmedium;
+}
+
+.greeting .title {
+	display: flex;
+	color: var(--primary);
+	font-size: 24px;
+	font-weight: 700;
+}
